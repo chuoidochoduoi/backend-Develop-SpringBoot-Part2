@@ -1,4 +1,4 @@
-package org.example.springboottest2.DTO.Request;
+package org.example.springboottest2.SS7.DTO.Request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

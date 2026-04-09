@@ -1,6 +1,6 @@
-package org.example.springboottest2.exception;
+package org.example.springboottest2.SS7.exception;
 
-import org.example.springboottest2.DTO.Reponse.ApiResponse2;
+import org.example.springboottest2.SS7.DTO.Reponse.ApiResponse2;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

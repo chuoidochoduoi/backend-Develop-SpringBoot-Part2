@@ -1,4 +1,4 @@
-package org.example.springboottest2.DTO.Reponse;
+package org.example.springboottest2.SS7.DTO.Reponse;
 
 
 import lombok.AllArgsConstructor;

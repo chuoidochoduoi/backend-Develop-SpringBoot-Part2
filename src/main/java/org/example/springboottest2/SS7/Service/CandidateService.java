@@ -1,11 +1,11 @@
-package org.example.springboottest2.Service;
+package org.example.springboottest2.SS7.Service;
 
 
 
-import org.example.springboottest2.DTO.Request.CandidateCreateDTO;
-import org.example.springboottest2.DTO.Request.CandidateUpdateDTO;
-import org.example.springboottest2.Repository.CandidateRepository;
-import org.example.springboottest2.model.Candidate;
+import org.example.springboottest2.SS7.DTO.Request.CandidateCreateDTO;
+import org.example.springboottest2.SS7.DTO.Request.CandidateUpdateDTO;
+import org.example.springboottest2.SS7.Repository.CandidateRepository;
+import org.example.springboottest2.SS7.model.Candidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

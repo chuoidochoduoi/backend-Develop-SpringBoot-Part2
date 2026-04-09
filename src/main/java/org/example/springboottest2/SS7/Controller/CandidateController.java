@@ -1,13 +1,13 @@
-package org.example.springboottest2.Controller;
+package org.example.springboottest2.SS7.Controller;
 
 
 import jakarta.validation.Valid;
 
-import org.example.springboottest2.DTO.Reponse.ApiResponse2;
-import org.example.springboottest2.DTO.Request.CandidateCreateDTO;
-import org.example.springboottest2.DTO.Request.CandidateUpdateDTO;
-import org.example.springboottest2.Service.CandidateService;
-import org.example.springboottest2.model.Candidate;
+import org.example.springboottest2.SS7.DTO.Reponse.ApiResponse2;
+import org.example.springboottest2.SS7.DTO.Request.CandidateCreateDTO;
+import org.example.springboottest2.SS7.DTO.Request.CandidateUpdateDTO;
+import org.example.springboottest2.SS7.Service.CandidateService;
+import org.example.springboottest2.SS7.model.Candidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
