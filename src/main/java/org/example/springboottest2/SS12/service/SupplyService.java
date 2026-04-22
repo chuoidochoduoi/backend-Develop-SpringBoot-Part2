@@ -119,7 +119,6 @@ public class SupplyService {
         if (s.getQuantity() < amount) {
 
 
-
             log.error("Xuất thất bại ID {}: yêu cầu {}, tồn {}",
                     id, amount, s.getQuantity());
 
@@ -184,7 +183,7 @@ public class SupplyService {
     public TopExportResponse topExport() {
 
         Page<TopExportResponse> page =
-                transactionRepo.getTopExport(PageRequest.of(0,1));
+                transactionRepo.getTopExport(PageRequest.of(0, 1));
 
 
         if (page.isEmpty()) {
